@@ -11,3 +11,29 @@ healthcare-insurance-automation/
 │   └── data_cleaning.py
 └── tests/
     └── test_main.py
+# Healthcare Insurance Automation
+
+This repository contains automation tools and scripts to streamline healthcare insurance processes such as claims processing, member management, and policy management.
+
+## Features
+- Claims automation
+- Member data management
+- Policy updates
+
+## Setup
+Follow the instructions to set up your environment.
+
+## Usage
+Describe how to run scripts or modules.
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Data
+/data/
+def main():
+    print("Healthcare Insurance Automation")
+
+if __name__ == "__main__":
+    main()
