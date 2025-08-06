@@ -1,1 +1,13 @@
-
+healthcare-insurance-automation/
+├── README.md
+├── .gitignore
+├── docs/
+│   └── overview.md
+├── src/
+│   └── main.py
+├── data/
+│   └── sample_data.csv
+├── scripts/
+│   └── data_cleaning.py
+└── tests/
+    └── test_main.py
