@@ -1,27 +1,53 @@
+# Digital Banking Experience Optimization & Operational Efficiency
 
-├── README.md
-├── docs/
-│   ├── 01_Project_Context.md
-│   ├── 02_BRD.md
-│   ├── 03_FRS.md
-│   ├── 04_User_Stories.md
-│   ├── 05_Process_Flows.md
-│   ├── 06_Wireframes.md
-│   ├── 07_UAT_Test_Plan.md
-│   ├── 08_KPI_Definitions.md
-│   ├── 09_Roadmap.md
-│   └── 10_Post_Implementation_Review.md
-├── data/
-│   ├── onboarding_events.csv
-│   ├── transactions.csv
-│   └── feedback.csv
-├── diagrams/
-│   └── flows.mmd
-├── uat/
-│   ├── test_cases.csv
-│   └── uat_summary.md
-└── outputs/
-    └── charts/
-        ├── onboarding_time_before_after.png
-        ├── transaction_success_before_after.png
-        └── engagement_before_after.png
+A portfolio project demonstrating end-to-end Business Analysis for a mid-sized digital bank. The initiative focuses on improving mobile/online banking experience, streamlining operations, and defining measurable KPIs for impact.
+
+## 🎯 Business Objectives
+- Reduce login-to-transaction time by 30%
+- Increase self-service adoption by 20%
+- Cut failed transaction rate by 15%
+- Improve CSAT/NPS by +10 points
+
+## 🧩 Scope
+**In scope:** Onboarding, login, account overview, payments/transfers, support flows (chat/FAQ).  
+**Out of scope:** Core banking replacement, branch ops, regulatory reporting changes.
+
+## 👥 Stakeholders
+- Head of Digital Banking, Ops Manager, Risk & Compliance, Customer Support Lead, Engineering Lead, UX Lead.
+
+## 📋 Requirements (Highlights)
+**Functional:** KYC-lite onboarding, biometric login, smart pay flows, biller hub, guided support.  
+**Non-Functional:** Availability ≥99.9%, P95 response <500ms, WCAG AA, audit logging, data privacy.
+
+## 📈 KPIs
+- Task success rate, conversion rate, error rate, average handling time, CSAT/NPS.
+
+## 🧭 Repository Map
+- `docs/BRD.md` – Business Requirements Document  
+- `docs/UserStories.md` – Epics → User Stories with acceptance criteria  
+- `docs/Wireframes/` – Screens & flow diagrams  
+- `docs/Diagrams/` – BPMN, swimlanes, state transitions  
+- `docs/KPI-Dashboard/` – KPI definitions & mock dashboard images  
+- `deliverables/OnePager.pdf` – Client-style one-pager
+
+## 🗺️ As-Is → To-Be (Summary)
+- **As-Is:** Fragmented flows, high drop-offs, limited self-service.  
+- **To-Be:** Frictionless onboarding, consolidated payments hub, proactive support, KPI-driven governance.
+
+## ✅ Risks & Mitigations
+- **Compliance risk:** Early reviews with Infosec/Legal; audit trails.  
+- **Scope creep:** BRD sign-off + change control.  
+- **Adoption risk:** In-app tips + staged rollout + A/B testing.
+
+## 🏁 Results (Mock Evaluation Plan)
+- A/B test on 10% traffic; monitor KPIs weekly; rollback plan documented.
+
+---
+
+### How to Navigate
+Open `deliverables/OnePager.pdf` for the executive summary, then explore `docs/` for detailed BA artefacts.
+
+---
+
+**Author:** Priyamvada Parmar  
+**Portfolio:** [BA Portfolio](https://github.com/PriyamvadaParmar/ba-portfolio)
