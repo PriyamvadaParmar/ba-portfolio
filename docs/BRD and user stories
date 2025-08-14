@@ -1,0 +1,58 @@
+# 02 — Business Requirements Document (BRD)
+
+## Executive Summary
+Create a modern digital experience that reduces onboarding friction, improves transaction reliability, and increases engagement through personalization.
+
+## Objectives
+- Reduce time-to-onboard by 20%.
+- Improve transaction success rate by 15%.
+- Increase engagement (DAU/MAU, session length, feature adoption) by 25%.
+- Lower basic support queries via self-service.
+
+## Scope
+**In-scope:** Onboarding, eKYC, login/auth, transfers, bill payments, support.  
+**Out-of-scope:** Core banking replacement, branch operations.
+
+## Stakeholders
+Product, Operations, Compliance, Engineering, Design, Support, Marketing.# 04 — User Stories (sample with acceptance criteria)
+
+## US-001: Biometric Login
+**As a** returning customer **I want** to log in with a fingerprint/face **so that** I can access my account quickly.
+- **Given** biometric is enabled **when** I open the app **then** I can authenticate with a single action.
+
+## US-002: OCR eKYC
+**As a** new applicant **I want** to scan my ID **so that** the form auto-fills.
+- **Given** camera permission **when** I capture my ID **then** fields are auto-populated with >95% accuracy.
+
+## US-003: AI Chatbot
+**As a** customer **I want** instant answers **so that** I avoid waiting in support queues.
+- **Given** a FAQ question **when** I ask the bot **then** I get a relevant response within 2 seconds.
+
+## US-004: Personalized Dashboard
+**As a** customer **I want** insights on spending and goals **so that** I can manage finances better.
+- **Given** my last 90 days of transactions **when** I view dashboard **then** I see categorized spends and tips.
+
+## US-005: Resume Application
+**As a** new applicant **I want** to resume onboarding **so that** I can finish later.
+- **Given** an incomplete application **when** I return within 7 days **then** I can continue from the last step.
+
+## Assumptions
+- APIs available for KYC/identity and payments.
+- Data governance & security policies in place.
+
+## Constraints
+- Regulatory approvals for KYC & data retention.
+- Legacy system integration timelines.
+
+## High-level Requirements (sample)
+- One-tap biometric login.
+- OCR + API-based eKYC.
+- Personalized financial dashboard + nudges.
+- AI chatbot for Tier-1 queries.
+- Audit logging & role-based access control (RBAC).
+
+## KPIs & Success Criteria
+- Avg. onboarding completion time, completion rate.
+- Transaction success rate, error rate by step.
+- DAU/MAU, feature adoption, retention.
+- Support ticket deflection.
