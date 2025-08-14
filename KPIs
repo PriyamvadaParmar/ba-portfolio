@@ -1,0 +1,12 @@
+# 08 — KPI Definitions
+- **Onboarding Time**: Avg. minutes to complete KYC and activate.
+- **Onboarding Completion Rate**: % who start and finish onboarding.
+- **Transaction Success Rate**: Successful / total transactions.
+- **Engagement**: DAU/MAU, session length, feature adoption.
+- **Ticket Deflection**: % of queries resolved by chatbot.
+
+## Targets
+- Onboarding Time: -20%
+- Transaction Success Rate: +15%
+- Engagement: +25%
+- Ticket Deflection: +30%
