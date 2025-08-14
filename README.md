@@ -23,7 +23,9 @@ Welcome to my Business Analyst portfolio. I specialize in bridging the gap betwe
 **Solution:** Performed a gap analysis and created a change management plan to launch a loyalty points system.  
 → [View project folder](./Customer_Loyalty_Program)
 
-[README.md](https://github.com/user-attachments/files/21765890/README.md)# Digital Banking Experience Optimization & Operational Efficiency
+[README.md](https://github.com/user-attachments/files/21765890/README.md)
+
+4.# Digital Banking Experience Optimization & Operational Efficiency
 **Role:** Business Analyst • **Domain:** Digital Banking & Fintech
 
 This portfolio project represents an end-to-end BA engagement for a mid-sized digital bank. 
